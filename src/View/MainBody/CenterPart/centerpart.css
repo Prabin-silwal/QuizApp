@@ -1,0 +1,42 @@
+.centerpart {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerpart input {
+    display: absolute;
+    padding: 50%;
+    width: auto;
+    height: 50px;
+    margin: 50px;
+
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.centerpart button {
+    display: relative;
+    padding: 50%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    background-color: var(--navbar-color);
+    color: var(--navbar-text-color);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--background-color-dark);
+}

@@ -1,0 +1,67 @@
+html {
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: var(--navbar-color);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    border-bottom: 1px solid var(--navbar-border-color);
+}
+
+.nav-bar__logo {
+    height: 60px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    background-color: var(--navbar-logo-color);
+    float: left;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.nav-bar__logo:hover {
+    background-color: var(--background-color-dark);
+}
+
+.nav-bar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin: 20px;
+    margin-right: 10px;
+
+}
+
+.nav-bar__menu-item {
+    float: inline-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 1s;
+}
+
+.nav-bar__menu :hover {
+    background-color: var(--background-color-dark);
+}
